@@ -106,27 +106,27 @@ main {
 
 @media (max-width: 1080px){
 	.left h1 {
-		font-size: 100px;
+		font-size: 9vw;
 	}
 	.left > a {
-		font-size: 25px;
-		padding: 25px 70px;
-		max-width: 140px;
+		font-size: 2vw;
+		padding: 2vw 4vw;
+		max-width: 12vw;
 	}
 	.left p {
-		font-size: 24px;
+		font-size: 2vw;
 	}
 	.level_1 {
 		margin: 25px;
 		flex-wrap: wrap;
 		justify-content: space-between;
-		height: 1100px;
+		height: 100vw;
 	}
 	.right {
 		display: flex;
 		align-items: flex-end;
 	}
 	.right img {
-		width: 870px;
+		width: 79vw;
 	}
 }
