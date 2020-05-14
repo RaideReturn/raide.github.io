@@ -1,51 +1,132 @@
 body {
-	width: 1249px;
-	margin: 29px 0 0 164px;
+	margin: 30px 0 0;
 }
-.header {
-	text-align: center;
-	width: 1249px;
+
+@font-face {
+	font-family: 'Open Sans';
+	src: url('../fonts/Open_Sans/OpenSans-Regular.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Open Sans';
+	src: url('../fonts/Open_Sans/OpenSans-Bold.ttf') format('truetype');
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Open Sans';
+	src: url('../fonts/Open_Sans/OpenSans-ExtraBold.ttf') format('truetype');
+	font-weight: 800;
+	font-style: normal;
+}
+
+header {
+	display: flex;
+	justify-content: center;
+}
+
+.side-menu {
 	background-color: black;
-	padding: 39px 0 26px;
-	font-size: 14px;
+	width: 80vw;
+	min-width: 700px;
+	min-height: 89px;
+	display: flex;
+	justify-content: center;
+	opacity: 0.8;
 }
-.header > a {
-	padding: 39px 23px 26px; 
+
+.side-menu > a {
+	display: flex;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-family: Open Sans;
 	color: white;
+	font-weight: bold;
+	min-height: 89px;
+	align-items: center;
+	padding: 0 30px;
+}
+
+.side-menu > a:hover {
+	background-color: #FF3F40;;
+}
+
+main {
+	display: flex;
+	justify-content: center;
+}
+
+.level_1 {
+	display: flex;
+	width: 80vw;
+	min-width: 700px;
+	justify-content: space-between;
+	margin: 5vw 0;
+}
+
+.left {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.left h1 {
 	text-transform: uppercase;
-	text-decoration: none;
-	font-weight: bold;
-} 
-.header > a:hover {
-	background-color: #FF3F40;
+	font-family: Open Sans;
+	font-weight: bolder;
+	font-size: 4vw;
+	margin: 0 0 2vw;
 }
-.main {
-	position: relative;
-	margin-top: 102px;
-}
-.main-text {
-	display: inline-block;
-	vertical-align: top;
-}
-.main-text > h1 {
-	margin: 0 0 36px;
-	font-size: 60px;
-	text-transform: uppercase;
-	font-weight: bold;
-}
-.main-text > p {
-	margin-bottom: 78px;
-}
-.main-text > a {
+
+.left > a {
+	margin: 0;
+	padding: 1vw 4vw 1vw;
+	font-size: 1vw;
+	border-radius: 5px;
+	font-family: Open Sans;
 	font-weight: bold;
 	text-decoration: none;
-	padding: 17px 64px;
+	color: white;
 	background-color: #FF2D2D;
-	color: white;
+	max-width: 6vw;
 }
-.img {
-	position: absolute;
-	display: inline-block;
-	vertical-align: top;
-	right: 0;
+
+.left p {
+	font-family: Open Sans;
+	font-size: 1vw;
+	margin: 0;
+}
+
+.right img {
+	width: 40vw;
+}
+
+@media (max-width: 875px){
+	.left h1 {
+		font-size: 80px;
+	}
+	.left > a {
+		font-size: 18px;
+		padding: 15px 60px;
+		max-width: 101px;
+	}
+	.left p {
+		font-size: 16px;
+	}
+	.level_1 {
+		margin: 25px;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		height: 900px;
+	}
+	.right {
+		display: flex;
+		align-items: flex-end;
+	}
+	.right img {
+		width: 700px;
+	}
 }
