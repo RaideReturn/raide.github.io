@@ -160,6 +160,10 @@ main {
 	margin-bottom: 5vw; 
 }
 
+.lleft img {
+	width: 3vw;
+}
+
 @media (max-width: 1080px){
 	.left h1 {
 		font-size: 9vw;
@@ -209,5 +213,8 @@ main {
 	}
 	.lleft p {
 		font-size: 2vw;
+	}
+	.lleft img {
+		width: 5vw;
 	}
 }
