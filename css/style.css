@@ -57,6 +57,7 @@ header {
 main {
 	display: flex;
 	justify-content: center;
+	flex-wrap: wrap;
 }
 
 .level_1 {
@@ -104,6 +105,61 @@ main {
 	width: 40vw;
 }
 
+.level_2 {
+	display: flex;
+	width: 80vw;
+	min-width: 700px;
+	justify-content: space-between;
+}
+
+.lleft {
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 40vw;
+	justify-content: space-around;
+}
+
+.lright h1 {
+	font-family: Open Sans;
+	font-weight: normal;
+	font-size: 3vw;
+	text-transform: uppercase;
+	margin: 0 0 2vw;
+}
+
+.lright p {
+	font-family: Open Sans;
+	font-size: 1vw;
+}
+
+.lright > a {
+	font-family: Open Sans;
+	font-size: 1vw;
+	border: 2px solid red;
+	font-weight: bold;
+	text-decoration: none;
+	color: #FF2D2D;
+	border-radius: 5px;
+	margin: 0;
+	padding: 1vw 4vw;
+}
+
+.lleft h2 {
+	font-family: Open Sans;
+	font-weight: normal;
+	font-size: 2vw;
+	margin: 0;
+}
+
+.lleft p {
+	font-family: Open Sans;
+	font-size: 1vw;
+}
+
+.lright > div {
+	margin-bottom: 5vw; 
+}
+
 @media (max-width: 1080px){
 	.left h1 {
 		font-size: 9vw;
@@ -128,5 +184,30 @@ main {
 	}
 	.right img {
 		width: 79vw;
+	}
+	.level_2 {
+		justify-content: space-between;
+		height: 100vw;
+		flex-wrap: wrap;
+	}
+	.lright h1 {
+		font-size: 7vw;
+	}
+	.lright p {
+		font-size: 2vw;
+	}
+	.lright > a {
+		padding: 2vw 5vw;
+		font-size: 2vw;
+	}
+	.lleft {
+		max-width: 1249px;
+		justify-content: space-between;
+	}
+	.lleft h2 {
+		font-size: 5vw;
+	}
+	.lleft p {
+		font-size: 2vw;
 	}
 }
