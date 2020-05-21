@@ -1,0 +1,128 @@
+@media (max-width: 1080px) {
+	.side-menu {
+		min-height: 11vw;
+	}
+	a {
+		font-size: 2vw;
+		padding: 3vw 6vw;
+	}
+	.left > a {
+		max-width: 12vw;
+	}
+	p {
+		font-size: 1.8vw;
+	}
+	.l1 h1 {
+		font-size: 9vw;
+	}
+	.l1 img {
+		margin-top: 6vw;
+		width: 80vw;
+	}
+	h1 {
+		font-size: 6vw;
+	}
+	.lleft {
+		max-width: 77vw;
+		margin-top: 10vw;
+	}
+	h2 {
+		font-size: 4vw;
+	}
+	.lleft img {
+		width: 5vw;
+	}
+	hr {
+		width: 20vw;
+	}
+	.a3 > a {
+		font-size: 2vw;
+	}
+	.right4 {
+		margin-left: 2vw;
+	}
+	.right4 img {
+		margin: 0;
+	}
+	.img4 > img {
+		width: 27vw;
+	} 
+	.head5 > h2 {
+		font-size: 3vw;
+	}
+	.contacts {
+		width: 26vw;
+		height: 35.2vw;
+		padding-left: 4vw;
+	}
+	footer img {
+		width: 4vw;
+		margin: 0 1vw;
+	}
+	footer {
+		padding: 3vw 8vw;
+		margin-top: 10vw;
+	}
+}
+/* Под телефон full hd */
+/*@media (max-width: 1080px){
+	.left h1 {
+		font-size: 9vw;
+	}
+	.left > a {
+		font-size: 2vw;
+		padding: 2vw 4vw;
+		max-width: 12vw;
+	}
+	.left p {
+		font-size: 2vw;
+	}
+	.level_1 {
+		margin: 25px;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		height: 100vw;
+	}
+	.right {
+		display: flex;
+		align-items: flex-end;
+	}
+	.right img {
+		width: 79vw;
+	}
+	.level_2 {
+		justify-content: space-between;
+		height: 100vw;
+		flex-wrap: wrap;
+	}
+	.lright h1 {
+		font-size: 7vw;
+	}
+	.lright p {
+		font-size: 2vw;
+	}
+	.lright > a {
+		padding: 2vw 5vw;
+		font-size: 2vw;
+	}
+	.lleft {
+		margin: 10vw 0 0;
+		max-width: 1249px;
+		justify-content: space-between;
+	}
+	.lleft h2 {
+		font-size: 5vw;
+	}
+	.lleft p {
+		font-size: 2vw;
+	}
+	.lleft img {
+		width: 5vw;
+	}
+	footer img {
+		width: 4vw;
+	}
+	footer > p {
+		font-size: 3vw;
+	}
+}*/
